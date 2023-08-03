@@ -1,0 +1,42 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.statistics{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+}
+.subject{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.subject_image{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.subject_text{
+    position: absolute;
+    color: black;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(40px);
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
