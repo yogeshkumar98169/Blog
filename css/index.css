@@ -7,9 +7,12 @@ html,body{
     justify-content: center;
     align-items: center;
     margin: 10px auto;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .statistics{
-    width: 400px;
+    width: 320px;
     height: 400px;
     position: relative;
     cursor: pointer;
