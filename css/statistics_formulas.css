@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.mean{
+    width: 300px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(61, 61, 182);
+    font-size: larger;
+    transition: .5s;
+}
+.mean:hover{
+    background-color: rgb(61, 61, 182);
+    
+}
+a{
+    text-decoration: none;
+}
+.mean:hover>a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
